@@ -179,11 +179,11 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/portfolio" tag={Link}>
-                        Portfolio
-                      </DropdownItem>
                       <DropdownItem to="/" tag={Link}>
                         Profile
+                      </DropdownItem>
+                      <DropdownItem to="/portfolio" tag={Link}>
+                        Portfolio
                       </DropdownItem>
                       {/* <DropdownItem to="/login-page" tag={Link}>
                         Login
@@ -208,7 +208,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Like us on Linkedin
+                      Follow us on Linkedin
                     </UncontrolledTooltip>
                   </NavItem>
                   {/* <NavItem>
